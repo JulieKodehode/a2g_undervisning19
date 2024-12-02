@@ -59,6 +59,35 @@ addFront.addEventListener("click", function () {
   outputField.textContent = outputArray;
 });
 
+removeFront.addEventListener("click", function () {
+  console.log("Button clicked!");
+  
+  outputArray.shift(inputField.value);
+
+  console.log(outputArray);
+
+  outputField.textContent = outputArray;
+});
+
+addBack.addEventListener("click", function () {
+  console.log("Button clicked!");
+  
+  outputArray.push(inputField.value);
+
+  console.log(outputArray);
+
+  outputField.textContent = outputArray;
+});
+
+removeBack.addEventListener("click", function () {
+  console.log("Button clicked!");
+  
+  outputArray.pop(inputField.value);
+
+  console.log(outputArray);
+
+  outputField.textContent = outputArray;
+});
 
 
 
