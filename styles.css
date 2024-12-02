@@ -1,0 +1,42 @@
+/* GENERAL */
+body {
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  border-bottom: 5px solid black;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+/* MAIN */
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+}
